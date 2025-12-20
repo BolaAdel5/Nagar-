@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>إتقان الرياض للنجارة | أفخم منجرة في الرياض لتفصيل الأثاث والديكور</title>
+    <meta name="description" content="إتقان الرياض للنجارة: ورشة متخصصة في تفصيل الأثاث المودرن، الأبواب الخشبية، والديكورات الفاخرة في الرياض. جودة عالية، خشب طبيعي، وضمان 5 سنوات. اطلب استشارتك الآن.">
+    <meta name="keywords" content="نجارة الرياض، منجرة الرياض، تفصيل أثاث مودرن، ديكور خشب الرياض، تفصيل أبواب خشب، منجرة خشب شرق الرياض، ديكورات خشبية فخمة">
+    <meta name="author" content="إتقان الرياض">
+    <link rel="canonical" href="https://itqanriyadh.com/">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="إتقان الرياض للنجارة | فن وحرفة">
+    <meta property="og:description" content="نحول الخشب إلى تحف فنية في قلب الرياض. تفصيل حسب الطلب وبأعلى معايير الجودة.">
+    <meta property="og:image" content="https://r2-bucket.flowith.net/f/acac52d2ffab6f23/grand_saudi_entrance_door_index_1%401024x1024.jpeg">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#FDFBF7] text-[#3D2B1F] font-['Cairo'] antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 bg-walnut/95 backdrop-blur-md border-b border-gold/30 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-black text-gold tracking-wider flex items-center gap-2 hover:scale-105 transition-transform">
+                <i data-lucide="hammer" class="w-8 h-8"></i>
+                <span>إتقان الرياض</span>
+            </a>
+            <nav class="hidden md:flex gap-8 text-white/90 font-bold">
+                <a href="#hero" class="nav-link hover:text-gold transition-colors relative pb-1">الرئيسية</a>
+                <a href="#services" class="nav-link hover:text-gold transition-colors relative pb-1">خدماتنا</a>
+                <a href="#about" class="nav-link hover:text-gold transition-colors relative pb-1">عن المنجرة</a>
+                <a href="#gallery" class="nav-link hover:text-gold transition-colors relative pb-1">معرض الأعمال</a>
+                <a href="#contact" class="nav-link hover:text-gold transition-colors relative pb-1">تواصل معنا</a>
+            </nav>
+            <div class="hidden md:flex items-center gap-4">
+                <a href="tel:+966500000000" class="btn-glow bg-gold-grad text-white px-6 py-2 rounded-lg font-bold shadow-lg transition-all text-sm flex items-center gap-2">
+                    <i data-lucide="phone-call" class="w-4 h-4"></i>
+                    اتصل الآن
+                </a>
+            </div>
+            <button class="md:hidden text-white p-2" id="mobile-menu-btn" aria-label="فتح القائمة">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-walnut border-t border-gold/20 p-6 flex flex-col gap-4 text-white shadow-2xl">
+            <a href="#hero" class="mobile-link">الرئيسية</a>
+            <a href="#services" class="mobile-link">خدماتنا</a>
+            <a href="#about" class="mobile-link">عن المنجرة</a>
+            <a href="#gallery" class="mobile-link">معرض الأعمال</a>
+            <a href="#contact" class="mobile-link">تواصل معنا</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://r2-bucket.flowith.net/f/acac52d2ffab6f23/grand_saudi_entrance_door_index_1%401024x1024.jpeg" alt="تفصيل خشب الرياض" class="w-full h-full object-cover brightness-[0.3]">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-walnut/70"></div>
+        </div>
+        <div class="relative z-10 container mx-auto px-6 text-center">
+            <span class="inline-block px-4 py-1 bg-gold/20 border border-gold/40 text-gold rounded-full mb-6 font-bold text-sm tracking-widest opacity-0 hero-el">أفضل منجرة في الرياض</span>
+            <h1 class="text-5xl md:text-8xl font-black text-white mb-6 leading-tight opacity-0 hero-el">
+                نجارة تجمع بين <br> <span class="text-gold grad-text-gold">الأصالة والإتقان</span>
+            </h1>
+            <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto opacity-0 hero-el">
+                في ورشة إتقان الرياض، نحول أفكارك إلى واقع ملموس من الخشب الطبيعي الفاخر، لنضفي لمسة ملكية على منزلك بأيادي خبراء النجارة السعودية.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center opacity-0 hero-el">
+                <a href="#contact" class="btn-glow bg-gold-grad text-white px-10 py-5 rounded-full font-bold text-lg shadow-2xl hover:scale-105 transition-all">
+                    احجز موعد معاينة
+                </a>
+                <a href="#gallery" class="border-2 border-white/30 text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white/10 transition-all backdrop-blur-sm">
+                    تصفح مشاريعنا
+                </a>
+            </div>
+        </div>
+        <a href="#services" class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-gold opacity-50 hover:opacity-100 transition-opacity">
+            <i data-lucide="chevrons-down" class="w-8 h-8"></i>
+        </a>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-oak-grad text-white relative z-20 -mt-10 shadow-2xl mx-auto container rounded-2xl border border-white/10">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center px-6">
+            <div class="stat-item">
+                <div class="text-4xl font-black text-white mb-2 counter" data-target="15">0</div>
+                <div class="text-white/70 text-sm font-bold">عاماً من الخبرة</div>
+            </div>
+            <div class="stat-item">
+                <div class="text-4xl font-black text-white mb-2 counter" data-target="2400">0</div>
+                <div class="text-white/70 text-sm font-bold">مشروع منفذ بالرياض</div>
+            </div>
+            <div class="stat-item">
+                <div class="text-4xl font-black text-white mb-2 counter" data-target="100">0</div>
+                <div class="text-white/70 text-sm font-bold">خشب طبيعي 100%</div>
+            </div>
+            <div class="stat-item">
+                <div class="text-4xl font-black text-white mb-2 counter" data-target="5">0</div>
+                <div class="text-white/70 text-sm font-bold">سنوات ضمان حقيقي</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24">
+        <div class="container mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl md:text-6xl font-black mb-6 text-walnut section-title">خدماتنا الحرفية</h2>
+            <div class="w-32 h-1.5 bg-gold mx-auto mb-6 rounded-full"></div>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">نستخدم أفضل أنواع الأخشاب (سنديان، جوز، زان) لنقدم لك خدمات تفصيل وصيانة تتجاوز التوقعات.</p>
+        </div>
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10" id="services-grid">
+            <!-- GSAP Animated Content -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-32 bg-walnut text-white overflow-hidden relative border-y border-gold/10">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+        <div class="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="about-visual opacity-0 translate-x-12">
+                <div class="relative">
+                    <img src="https://r2-bucket.flowith.net/f/11c23dadcbb4a034/wood_carving_hands_index_2%401024x1024.jpeg" alt="نجارة يدوية في الرياض" class="rounded-3xl shadow-2xl relative z-10 border-4 border-gold/20">
+                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-oak-grad rounded-2xl -z-10 animate-pulse"></div>
+                </div>
+            </div>
+            <div class="about-text opacity-0 -translate-x-12">
+                <span class="text-gold font-black tracking-widest block mb-4 uppercase">عراقة النجارة السعودية</span>
+                <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">حيث تكتمل رفاهية منزلك بدقة أناملنا</h2>
+                <p class="text-white/70 text-lg mb-10 leading-relaxed">
+                    منذ تأسيسنا في قلب الرياض، وضعنا نصب أعيننا أن تكون "إتقان الرياض" هي الوجهة الأولى لكل من يبحث عن الفخامة والتميز في المشغولات الخشبية. نحن لا نصنع أثاثاً فحسب، بل نبني إرثاً جمالياً يعيش معكم.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-gold font-bold">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>تصميمات حصرية تناسب ذوقك الخاص.</span>
+                    </div>
+                    <div class="flex items-center gap-4 text-gold font-bold">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>فريق عمل خبير تحت إشراف سعودي.</span>
+                    </div>
+                    <div class="flex items-center gap-4 text-gold font-bold">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>أسعار تنافسية مع أعلى معايير الجودة.</span>
+                    </div>
+                </div>
+                <div class="mt-12">
+                    <a href="#contact" class="inline-flex items-center gap-3 text-gold font-black text-xl hover:gap-6 transition-all">
+                        اطلب تسعيرة الآن
+                        <i data-lucide="arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-white">
+        <div class="container mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-black mb-6 text-walnut section-title">إبداعاتنا الأخيرة</h2>
+            <div class="w-32 h-1.5 bg-gold mx-auto rounded-full"></div>
+        </div>
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
+            <!-- GSAP Animated Items -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-[#FDFBF7]">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-[2rem] shadow-premium overflow-hidden flex flex-col lg:flex-row border border-gold/10">
+                <div class="lg:w-2/5 p-12 bg-walnut text-white relative">
+                    <h2 class="text-4xl font-black mb-8 text-gold">ابدأ مشروعك الآن</h2>
+                    <p class="mb-12 text-white/70">فريقنا جاهز لاستقبال طلباتكم وتحويلها لمخططات تنفيذية مبهرة.</p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-5">
+                            <div class="bg-gold/20 p-3 rounded-xl text-gold shadow-lg">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">المقر الرئيسي</h4>
+                                <p class="text-white/60">الرياض - الصناعية القديمة - مخرج 17</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5">
+                            <div class="bg-gold/20 p-3 rounded-xl text-gold shadow-lg">
+                                <i data-lucide="phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">خدمة العملاء</h4>
+                                <p class="text-white/60" dir="ltr">+966 50 000 0000</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5">
+                            <div class="bg-gold/20 p-3 rounded-xl text-gold shadow-lg">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">البريد الإلكتروني</h4>
+                                <p class="text-white/60">info@itqanriyadh.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 h-64 rounded-2xl overflow-hidden border border-white/10 saturate-[0.25] hover:saturate-100 transition-all duration-700">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115934.33230635193!2d46.54233772846174!3d24.713603387865173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d874173%3A0xa606aa4804306376!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="lg:w-3/5 p-12 bg-white">
+                    <form id="contact-form" class="space-y-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="group">
+                                <label class="text-sm font-black text-walnut mb-2 block">الاسم الكريم</label>
+                                <input type="text" name="name" required class="w-full px-5 py-4 rounded-xl border-2 border-gray-100 focus:border-gold outline-none transition-all bg-gray-50/50" placeholder="مثال: فهد القحطاني">
+                            </div>
+                            <div class="group">
+                                <label class="text-sm font-black text-walnut mb-2 block">رقم الجوال (واتساب)</label>
+                                <input type="tel" name="phone" required class="w-full px-5 py-4 rounded-xl border-2 border-gray-100 focus:border-gold outline-none transition-all bg-gray-50/50" placeholder="05xxxxxxxx">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-sm font-black text-walnut mb-2 block">الخدمة المطلوبة</label>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="service" value="furniture" class="hidden peer" checked>
+                                    <div class="text-center py-3 rounded-xl border-2 border-gray-100 peer-checked:border-gold peer-checked:bg-gold/10 peer-checked:text-walnut transition-all font-bold text-sm">تفصيل أثاث</div>
+                                </label>
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="service" value="doors" class="hidden peer">
+                                    <div class="text-center py-3 rounded-xl border-2 border-gray-100 peer-checked:border-gold peer-checked:bg-gold/10 peer-checked:text-walnut transition-all font-bold text-sm">أبواب خشب</div>
+                                </label>
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="service" value="decor" class="hidden peer">
+                                    <div class="text-center py-3 rounded-xl border-2 border-gray-100 peer-checked:border-gold peer-checked:bg-gold/10 peer-checked:text-walnut transition-all font-bold text-sm">ديكورات</div>
+                                </label>
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="service" value="maintenance" class="hidden peer">
+                                    <div class="text-center py-3 rounded-xl border-2 border-gray-100 peer-checked:border-gold peer-checked:bg-gold/10 peer-checked:text-walnut transition-all font-bold text-sm">صيانة</div>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="text-sm font-black text-walnut mb-2 block">تفاصيل الطلب (أو المقاسات التقريبية)</label>
+                            <textarea name="message" rows="5" class="w-full px-5 py-4 rounded-xl border-2 border-gray-100 focus:border-gold outline-none transition-all bg-gray-50/50 resize-none" placeholder="اكتب لنا طلبك بالتفصيل..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full btn-glow bg-walnut text-white py-5 rounded-2xl font-black text-xl shadow-xl transition-all flex items-center justify-center gap-3">
+                            إرسال الطلب مجاناً
+                            <i data-lucide="send" class="w-6 h-6"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0F0A08] text-white/60 py-20 border-t border-gold/10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-1">
+                    <div class="text-3xl font-black text-gold mb-6 flex items-center gap-2">
+                        <i data-lucide="hammer"></i>
+                        إتقان الرياض
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">منجرة متخصصة في المشغولات الخشبية الفاخرة بالرياض. نسعى دائمًا لتقديم أعلى مستويات الجودة والحرفية في كل قطعة نصنعها.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-walnut transition-all shadow-lg"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-walnut transition-all shadow-lg"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-walnut transition-all shadow-lg"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-black text-lg mb-6 border-r-4 border-gold pr-3">روابط سريعة</h4>
+                    <ul class="space-y-4 font-bold">
+                        <li><a href="#hero" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-left" class="w-4 h-4 text-gold"></i> الرئيسية</a></li>
+                        <li><a href="#services" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-left" class="w-4 h-4 text-gold"></i> خدماتنا الحرفية</a></li>
+                        <li><a href="#about" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-left" class="w-4 h-4 text-gold"></i> من نحن</a></li>
+                        <li><a href="#gallery" class="hover:text-gold transition-colors flex items-center gap-2"><i data-lucide="chevron-left" class="w-4 h-4 text-gold"></i> معرض الأعمال</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-white font-black text-lg mb-6 border-r-4 border-gold pr-3">تواصل معنا</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3"><i data-lucide="map-pin" class="text-gold w-5 h-5"></i> حي النجارة، الرياض</li>
+                        <li class="flex items-center gap-3"><i data-lucide="phone" class="text-gold w-5 h-5"></i> <span dir="ltr">+966 50 000 0000</span></li>
+                        <li class="flex items-center gap-3"><i data-lucide="mail" class="text-gold w-5 h-5"></i> info@itqanriyadh.com</li>
+                        <li class="flex items-center gap-3"><i data-lucide="clock" class="text-gold w-5 h-5"></i> 8:00 ص - 8:30 م</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter/Map Link -->
+                <div>
+                    <h4 class="text-white font-black text-lg mb-6 border-r-4 border-gold pr-3">خدماتنا</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-white/5 px-3 py-1 rounded-md text-xs hover:bg-gold/20 cursor-default transition-colors border border-white/10">أبواب خشب</span>
+                        <span class="bg-white/5 px-3 py-1 rounded-md text-xs hover:bg-gold/20 cursor-default transition-colors border border-white/10">مطابخ مودرن</span>
+                        <span class="bg-white/5 px-3 py-1 rounded-md text-xs hover:bg-gold/20 cursor-default transition-colors border border-white/10">ديكورات جدارية</span>
+                        <span class="bg-white/5 px-3 py-1 rounded-md text-xs hover:bg-gold/20 cursor-default transition-colors border border-white/10">غرف نوم</span>
+                        <span class="bg-white/5 px-3 py-1 rounded-md text-xs hover:bg-gold/20 cursor-default transition-colors border border-white/10">مجالس عربية</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-10 border-t border-white/5 text-center text-sm font-bold flex flex-col md:flex-row justify-between items-center gap-4">
+                <p>جميع الحقوق محفوظة © 2025 إتقان الرياض للنجارة</p>
+                <div class="flex items-center gap-2 text-gold/80">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i>
+                    <span>مسجل رسمياً في وزارة التجارة السعودية</span>
+                </div>
+                <p class="text-gold/60">صُنع بإتقان في الرياض 🇸🇦</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/966500000000?text=السلام%20عليكم%20إتقان%20الرياض،%20أرغب%20في%20طلب%20استشارة%20أو%20تسعيرة%20لعمل%20نجارة" 
+       target="_blank" id="whatsapp-float" 
+       class="fixed bottom-10 left-10 z-[100] bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 group overflow-visible"
+       aria-label="تواصل عبر واتساب">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+        <span class="absolute right-full mr-4 bg-white text-walnut px-4 py-2 rounded-xl text-sm font-black opacity-0 group-hover:opacity-100 transition-all pointer-events-none whitespace-nowrap shadow-xl border border-gray-100 transform translate-x-4 group-hover:translate-x-0">
+            تواصل مع المعلم الآن
+        </span>
+        <div class="whatsapp-pulse absolute inset-0 rounded-full bg-[#25D366]"></div>
+    </a>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
